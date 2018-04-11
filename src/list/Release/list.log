@@ -1,0 +1,37 @@
+﻿生成启动时间为 2018/4/9 19:59:35。
+     1>项目“H:\数据结构\dsa\src\list\list.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\编程\vs\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\UniPrint\print_basic.cpp main.cpp
+         print_basic.cpp
+         main.cpp
+     1>main.cpp(49): warning C4474: printf: 格式字符串中传递的参数太多
+         main.cpp(49): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+         main.cpp(93): note: 参见对正在编译的函数 模板 实例化“void testList<int>(int)”的引用
+     1>h:\数据结构\dsa\src\uniprint\Print_traversable.h(16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'List<T> *'
+                 with
+                 [
+                     T=int
+                 ]
+         h:\数据结构\dsa\src\list\../UniPrint/print.h(34): note: 参见对正在编译的函数 模板 实例化“void UniPrint::p<T>(T &)”的引用
+                 with
+                 [
+                     T=List<int>
+                 ]
+         main.cpp(38): note: 参见对正在编译的函数 模板 实例化“void print<List<T>>(List<T> &)”的引用
+                 with
+                 [
+                     T=int
+                 ]
+         main.cpp(93): note: 参见对正在编译的函数 模板 实例化“void testList<int>(int)”的引用
+       Link:
+         C:\编程\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\数据结构\dsa\src\Release\list.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"H:\数据结构\dsa\src\Release\list.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\数据结构\dsa\src\Release\list.lib" /MACHINE:X86 /SAFESEH Release\print_basic.obj
+         Release\main.obj
+         正在生成代码
+         All 63 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         list.vcxproj -> H:\数据结构\dsa\src\Release\list.exe
+     1>已完成生成项目“H:\数据结构\dsa\src\list\list.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.96
